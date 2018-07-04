@@ -1,0 +1,10 @@
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\bin\Debug\BalistaCalc.exe.config
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\bin\Debug\BalistaCalc.exe
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\bin\Debug\BalistaCalc.pdb
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.csprojResolveAssemblyReference.cache
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.MNForm.resources
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.Properties.Resources.resources
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.csproj.GenerateResource.Cache
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.csproj.CoreCompileInputs.cache
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.exe
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.pdb
