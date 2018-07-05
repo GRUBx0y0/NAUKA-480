@@ -36,5 +36,21 @@ namespace BalistaCalc
         {
 
         }
+
+        private void MNForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SelectedItem_click(object sender, EventArgs e)
+        {
+            MessageBox.Show(lst1.SelectedItem.ToString());
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FInfo ForM = new FInfo();
+            ForM.ShowDialog();
+        }
     }
 }
