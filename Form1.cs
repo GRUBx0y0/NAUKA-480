@@ -52,5 +52,15 @@ namespace BalistaCalc
             FInfo ForM = new FInfo();
             ForM.ShowDialog();
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0");
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
