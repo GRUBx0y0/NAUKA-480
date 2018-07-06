@@ -52,6 +52,10 @@ namespace BalistaCalc
                     common_move n = new common_move();
                     n.ShowDialog();
                     break;
+                case 1:
+                    accelerated_move a = new accelerated_move();
+                    a.ShowDialog();
+                    break;
             }
 
         }

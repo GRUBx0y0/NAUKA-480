@@ -12,3 +12,4 @@ C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCa
 C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.common_move.resources
 C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.lineCommon.resources
 C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.CircleMove.resources
+C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.accelerated_move.resources

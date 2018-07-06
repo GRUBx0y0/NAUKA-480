@@ -40,8 +40,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -161,22 +161,12 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Location = new System.Drawing.Point(84, 231);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(389, 208);
             this.panel3.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label6.Location = new System.Drawing.Point(18, 36);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(342, 156);
-            this.label6.TabIndex = 3;
-            this.label6.Text = resources.GetString("label6.Text");
             // 
             // label5
             // 
@@ -188,6 +178,19 @@
             this.label5.Size = new System.Drawing.Size(298, 18);
             this.label5.TabIndex = 2;
             this.label5.Text = "Инструкция по работе с программой";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.textBox1.Location = new System.Drawing.Point(3, 41);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(383, 153);
+            this.textBox1.TabIndex = 3;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // FInfo
             // 
@@ -224,11 +227,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

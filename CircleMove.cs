@@ -40,7 +40,7 @@ namespace BalistaCalc
 
                 catch (FormatException)
                 {
-                    MessageBox.Show("Ошибка! Вы ввели символ, для ввода дробей используйте: ,");
+                    MessageBox.Show("Ошибка! Вы ввели символ. Для ввода дробей используйте: ,");
                 }
 
                 
@@ -56,7 +56,7 @@ namespace BalistaCalc
 
                 catch (FormatException)
                 {
-                    MessageBox.Show("Ошибка! Вы ввели символ, для ввода дробей используйте: ,");
+                    MessageBox.Show("Ошибка! Вы ввели символ. Для ввода дробей используйте: ,");
                 }
 
             }
@@ -72,10 +72,10 @@ namespace BalistaCalc
 
                 catch (FormatException)
                 {
-                    MessageBox.Show("Ошибка! Вы ввели символ, для ввода дробей используйте: ,");
+                    MessageBox.Show("Ошибка! Вы ввели символ. Для ввода дробей используйте: ,");
                 }
 
-            }
+            }         //Collect all Info
 
             if (rtext.Text.Length != 0)
             {
@@ -89,11 +89,10 @@ namespace BalistaCalc
 
                 catch (FormatException)
                 {
-                    MessageBox.Show("Ошибка! Вы ввели символ, для ввода дробей используйте: ,");
+                    MessageBox.Show("Ошибка! Вы ввели символ. Для ввода дробей используйте: ,");
                 }
 
             }
-
 
             if (ttext.Text.Length != 0)
             {
@@ -106,7 +105,7 @@ namespace BalistaCalc
 
                 catch (FormatException)
                 {
-                    MessageBox.Show("Ошибка! Вы ввели символ, для ввода дробей используйте: ,");
+                    MessageBox.Show("Ошибка! Вы ввели символ. Для ввода дробей используйте: ,");
                 }
 
 
@@ -122,7 +121,7 @@ namespace BalistaCalc
 
                 catch (FormatException)
                 {
-                    MessageBox.Show("Ошибка! Вы ввели символ, для ввода дробей используйте: ,");
+                    MessageBox.Show("Ошибка! Вы ввели символ. Для ввода дробей используйте: ,");
                 }
 
             }
@@ -150,7 +149,7 @@ namespace BalistaCalc
                 }
 
                 Tb = nb = omb = true;
-            }
+            }        //First Block
 
             if((vb || ab || Rb) && Tb)
             {
@@ -176,7 +175,75 @@ namespace BalistaCalc
             }
 
 
-           if(ab)
+
+                                              //Second Block
+
+            else if((vb && Rb) || (ab && Rb))
+            {
+                if(vb && Rb)
+                {
+                    om = v / R;
+                    a = Math.Pow(om, 2) * R;
+                }
+
+                else
+                {
+                    om = Math.Sqrt(a / R);
+                    v = om * R;
+                }
+
+                
+                omb = true;
+                ab = true;
+            }
+
+            if (nb || Tb || omb)
+            {
+                if (Tb)
+                {
+                    om = 2 * pi / T;
+                    n = 1 / T;
+                }
+
+                else if (nb)
+                {
+                    T = 1 / n;
+                    om = 2 * pi * n;
+                }
+
+                else if (omb)
+                {
+                    T = 2 * pi / om;
+                    n = 1 / T;
+                }
+
+                Tb = nb = omb = true;
+            }
+
+
+            if ((vb || ab || Rb) && Tb)
+            {
+                if (vb)
+                {
+                    R = v / om;
+                    a = Math.Pow(om, 2) * R;
+                }
+
+                else if (ab)
+                {
+                    R = a / Math.Pow(om, 2);
+                    v = 2 * pi * R / T;
+                }
+
+                else if (Rb)
+                {
+                    v = om * R;
+                    a = Math.Pow(om, 2) * R;
+                }
+
+            }
+
+                if (ab)
             {
                 ares.Text = a.ToString();
             }

@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="accelerated_move.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accelerated_move.Designer.cs">
+      <DependentUpon>accelerated_move.cs</DependentUpon>
+    </Compile>
     <Compile Include="CircleMove.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="accelerated_move.resx">
+      <DependentUpon>accelerated_move.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CircleMove.resx">
       <DependentUpon>CircleMove.cs</DependentUpon>
     </EmbeddedResource>
