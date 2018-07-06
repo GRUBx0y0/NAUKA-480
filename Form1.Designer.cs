@@ -111,6 +111,7 @@
             this.lst1.Name = "lst1";
             this.lst1.Size = new System.Drawing.Size(185, 212);
             this.lst1.TabIndex = 0;
+            this.lst1.SelectedIndexChanged += new System.EventHandler(this.lst1_SelectedIndexChanged);
             this.lst1.DoubleClick += new System.EventHandler(this.SelectedItem_click);
             // 
             // label3

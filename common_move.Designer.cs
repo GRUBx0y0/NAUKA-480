@@ -94,6 +94,7 @@
             this.Name = "common_move";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Равномерное Движение";
+            this.Load += new System.EventHandler(this.common_move_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

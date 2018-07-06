@@ -131,6 +131,7 @@
             this.stext.Name = "stext";
             this.stext.Size = new System.Drawing.Size(108, 20);
             this.stext.TabIndex = 9;
+            this.stext.TextChanged += new System.EventHandler(this.stext_TextChanged);
             // 
             // vtext
             // 
@@ -319,6 +320,7 @@
             this.MaximizeBox = false;
             this.Name = "lineCommon";
             this.Text = "Прямолинейное Движение";
+            this.Load += new System.EventHandler(this.lineCommon_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

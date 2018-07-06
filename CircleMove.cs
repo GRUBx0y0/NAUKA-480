@@ -15,6 +15,17 @@ namespace BalistaCalc
     public partial class CircleMove : Form
     {
         double v, n, T, R, a, om;
+
+        private void atext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CircleMove_Load(object sender, EventArgs e)
+        {
+
+        }
+
         bool vb, nb, Tb, Rb, ab, omb;
 
         double pi;

@@ -13,3 +13,20 @@ C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCa
 C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.lineCommon.resources
 C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.CircleMove.resources
 C:\Users\alexf\OneDrive\Документы\Visual Studio 2017\Projects\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.accelerated_move.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\bin\Debug\BalistaCalc.exe.config
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\bin\Debug\BalistaCalc.exe
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\bin\Debug\BalistaCalc.pdb
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.csprojAssemblyReference.cache
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.accelerated_move.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.CircleMove.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.common_move.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.FInfo.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.MNForm.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.lineCommon.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.Properties.Resources.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.csproj.GenerateResource.cache
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.csproj.CoreCompileInputs.cache
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.exe
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.pdb
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.Speed.resources
+C:\Users\Arseniyk\source\repos\BalistaCalc\BalistaCalc\obj\Debug\BalistaCalc.way.resources

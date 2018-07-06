@@ -174,6 +174,7 @@
             this.atext.Name = "atext";
             this.atext.Size = new System.Drawing.Size(103, 20);
             this.atext.TabIndex = 12;
+            this.atext.TextChanged += new System.EventHandler(this.atext_TextChanged);
             // 
             // label7
             // 
@@ -504,6 +505,7 @@
             this.Name = "CircleMove";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Движение по Окружности";
+            this.Load += new System.EventHandler(this.CircleMove_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

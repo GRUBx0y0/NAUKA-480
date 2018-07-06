@@ -117,6 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Равноускоренное движение - движение, при котором вектор ускорения остается неизменным по модулю и направлению
+Ускорение - характеристика изменения скорости за время
+
+Формулы и обозначения равноускоренного движения:
+v — начальная скорость тела
+ t — время
+
+v = at
+v = gt
+a = v/t
+v = v0 + at
+at = v – v0
+a = (v – v0)/t
+x = X0 + V0 * t + at^2/2
+V^2 - V0^2 = 2as</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

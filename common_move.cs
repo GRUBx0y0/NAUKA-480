@@ -44,5 +44,10 @@ namespace BalistaCalc
                     break;
             }
         }
+
+        private void common_move_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
