@@ -15,17 +15,6 @@ namespace BalistaCalc
     public partial class CircleMove : Form
     {
         double v, n, T, R, a, om;
-
-        private void atext_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CircleMove_Load(object sender, EventArgs e)
-        {
-
-        }
-
         bool vb, nb, Tb, Rb, ab, omb;
 
         double pi;
@@ -36,6 +25,13 @@ namespace BalistaCalc
             InitializeComponent();
             vb = nb = Tb = Rb = ab = omb = false;
             pi = 3.14159265;
+
+            vres.Text = "Нет Данных";
+            ares.Text = "Нет Данных";
+            nres.Text = "Нет Данных";
+            rres.Text = "Нет Данных";
+            tres.Text = "Нет Данных";
+            omres.Text = "Нет Данных";
         }
 
         private void button1_Click(object sender, EventArgs e)

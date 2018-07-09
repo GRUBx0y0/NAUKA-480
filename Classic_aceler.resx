@@ -117,44 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>Равноускоренное Движение - Это вид движения при котором скорость тела
-увеличивается на постоянную велечину (Ускорение) за единицу времени (Прирост скорости за 1 секунду)
-
-График скорости при таком движении - Возрастающая или убывающая прямая.
-
-График Пройденного пути - Параболла, ветки которой могут направлены как вверх так и вниз.
-
-
-Обозначения:
-
-a - Ускорение (Прирост скорости) [м/с^2]
-
-v - Скорость [м/с^2]     (v0 - Начальная скорость)
-
-s - Пройденный Путь [м] (Равен разнице конечной и начальной координат     x - x0)
-
-t - Время [с]
-
-
-
-Формулы:
-
-v = v0 + at;
-
-a = dv/dt;
-
-s = v0 * t - a * t^2/2;
-
-v^2 - v0^2 = 2as;
-
-
-Примечания:
-
-Так как:  a - производная от скорости по времени, площадь под графиком ускорения является значением скорости.
- 
-В то же время: v - производная от пути по времени, площадь под графиком скорости равняется пройденному пути.</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

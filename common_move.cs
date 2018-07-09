@@ -32,22 +32,23 @@ namespace BalistaCalc
         {
             int index = listBox1.SelectedIndex;
 
+            
+
             switch (index)
             {
                 case 0:
                     lineCommon t = new lineCommon();
+                   
                     t.ShowDialog();
+                    
                     break;
                 case 1:
                     CircleMove y = new CircleMove();
+                    
                     y.ShowDialog();
+                    
                     break;
             }
-        }
-
-        private void common_move_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

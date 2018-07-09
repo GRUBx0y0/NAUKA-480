@@ -42,20 +42,23 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel3.Controls.Add(this.linkLabel1);
-            this.panel3.Location = new System.Drawing.Point(248, 408);
+            this.panel3.Location = new System.Drawing.Point(400, 415);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(244, 30);
+            this.panel3.Size = new System.Drawing.Size(232, 30);
             this.panel3.TabIndex = 3;
             // 
             // linkLabel1
@@ -63,7 +66,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel1.ImageKey = "(отсутствует)";
-            this.linkLabel1.Location = new System.Drawing.Point(33, 6);
+            this.linkLabel1.Location = new System.Drawing.Point(31, 7);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(179, 16);
             this.linkLabel1.TabIndex = 0;
@@ -75,9 +78,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.LightCyan;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(300, 27);
+            this.panel1.Location = new System.Drawing.Point(291, 25);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(160, 45);
+            this.panel1.Size = new System.Drawing.Size(169, 42);
             this.panel1.TabIndex = 7;
             // 
             // label1
@@ -85,7 +88,7 @@
             this.label1.AutoSize = true;
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(14, 4);
+            this.label1.Location = new System.Drawing.Point(16, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 31);
             this.label1.TabIndex = 0;
@@ -213,12 +216,36 @@
             this.panel5.Size = new System.Drawing.Size(216, 290);
             this.panel5.TabIndex = 11;
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel6.Controls.Add(this.linkLabel2);
+            this.panel6.Location = new System.Drawing.Point(117, 415);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(222, 30);
+            this.panel6.TabIndex = 13;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkLabel2.ImageKey = "(отсутствует)";
+            this.linkLabel2.LinkColor = System.Drawing.Color.ForestGreen;
+            this.linkLabel2.Location = new System.Drawing.Point(28, 7);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(172, 16);
+            this.linkLabel2.TabIndex = 0;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Физический Справочник";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
             // MNForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BalistaCalc.Properties.Resources.Background_physic;
             this.ClientSize = new System.Drawing.Size(751, 450);
+            this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
@@ -241,6 +268,8 @@
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -259,6 +288,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 

@@ -38,11 +38,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(411, 12);
+            this.textBox1.Location = new System.Drawing.Point(369, 5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(228, 277);
+            this.textBox1.Size = new System.Drawing.Size(278, 277);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
@@ -62,9 +62,9 @@
             this.panel1.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.panel1.Controls.Add(this.listBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(3, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(352, 277);
+            this.panel1.Size = new System.Drawing.Size(360, 277);
             this.panel1.TabIndex = 2;
             // 
             // listBox1
@@ -85,7 +85,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BalistaCalc.Properties.Resources.Background_physic;
-            this.ClientSize = new System.Drawing.Size(651, 301);
+            this.ClientSize = new System.Drawing.Size(651, 285);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -94,7 +94,6 @@
             this.Name = "common_move";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Равномерное Движение";
-            this.Load += new System.EventHandler(this.common_move_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

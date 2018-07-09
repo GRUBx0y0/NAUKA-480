@@ -45,16 +45,21 @@ namespace BalistaCalc
         private void SelectedItem_click(object sender, EventArgs e)
         {
             int index = lst1.SelectedIndex;
+           
 
-            switch(index)
+            switch (index)
             {
                 case 0:
                     common_move n = new common_move();
+                    
                     n.ShowDialog();
+                    
                     break;
                 case 1:
                     accelerated_move a = new accelerated_move();
+                   
                     a.ShowDialog();
+                    
                     break;
             }
 
@@ -89,6 +94,12 @@ namespace BalistaCalc
         private void lst1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Phys_Dict ph = new Phys_Dict();
+            ph.ShowDialog();
         }
     }
 }

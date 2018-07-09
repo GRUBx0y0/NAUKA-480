@@ -53,6 +53,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -61,11 +62,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(230, 12);
+            this.label1.Location = new System.Drawing.Point(145, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 16);
+            this.label1.Size = new System.Drawing.Size(130, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Заполните более одного поля";
+            this.label1.Text = "Заполните Поля";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
@@ -82,9 +83,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(658, 166);
+            this.panel1.Size = new System.Drawing.Size(379, 204);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -92,7 +93,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(637, 60);
+            this.label12.Location = new System.Drawing.Point(186, 162);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(16, 16);
             this.label12.TabIndex = 13;
@@ -102,7 +103,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(398, 60);
+            this.label11.Location = new System.Drawing.Point(186, 60);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(18, 16);
             this.label11.TabIndex = 12;
@@ -112,39 +113,39 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(164, 60);
+            this.label10.Location = new System.Drawing.Point(186, 112);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(31, 16);
             this.label10.TabIndex = 11;
             this.label10.Text = "м/c";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // ttext
             // 
-            this.ttext.Location = new System.Drawing.Point(522, 58);
+            this.ttext.Location = new System.Drawing.Point(54, 161);
             this.ttext.Name = "ttext";
-            this.ttext.Size = new System.Drawing.Size(110, 20);
+            this.ttext.Size = new System.Drawing.Size(126, 20);
             this.ttext.TabIndex = 10;
             // 
             // stext
             // 
-            this.stext.Location = new System.Drawing.Point(284, 58);
+            this.stext.Location = new System.Drawing.Point(54, 59);
             this.stext.Name = "stext";
-            this.stext.Size = new System.Drawing.Size(108, 20);
+            this.stext.Size = new System.Drawing.Size(126, 20);
             this.stext.TabIndex = 9;
-            this.stext.TextChanged += new System.EventHandler(this.stext_TextChanged);
             // 
             // vtext
             // 
-            this.vtext.Location = new System.Drawing.Point(46, 59);
+            this.vtext.Location = new System.Drawing.Point(54, 111);
             this.vtext.Name = "vtext";
-            this.vtext.Size = new System.Drawing.Size(112, 20);
+            this.vtext.Size = new System.Drawing.Size(126, 20);
             this.vtext.TabIndex = 8;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(275, 108);
+            this.button1.Location = new System.Drawing.Point(259, 93);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 41);
+            this.button1.Size = new System.Drawing.Size(95, 55);
             this.button1.TabIndex = 7;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
@@ -154,7 +155,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(499, 59);
+            this.label4.Location = new System.Drawing.Point(31, 162);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 16);
             this.label4.TabIndex = 3;
@@ -164,7 +165,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(256, 59);
+            this.label3.Location = new System.Drawing.Point(26, 60);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 16);
             this.label3.TabIndex = 2;
@@ -174,7 +175,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(18, 60);
+            this.label2.Location = new System.Drawing.Point(26, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 16);
             this.label2.TabIndex = 1;
@@ -184,7 +185,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(288, 13);
+            this.label5.Location = new System.Drawing.Point(145, 12);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(101, 16);
             this.label5.TabIndex = 11;
@@ -193,34 +194,37 @@
             // 
             // tres
             // 
-            this.tres.Location = new System.Drawing.Point(516, 85);
+            this.tres.Location = new System.Drawing.Point(132, 160);
             this.tres.Name = "tres";
             this.tres.ReadOnly = true;
-            this.tres.Size = new System.Drawing.Size(110, 20);
+            this.tres.Size = new System.Drawing.Size(126, 20);
             this.tres.TabIndex = 17;
+            this.tres.Text = "Нет данных";
             // 
             // sres
             // 
-            this.sres.Location = new System.Drawing.Point(294, 86);
+            this.sres.Location = new System.Drawing.Point(132, 60);
             this.sres.Name = "sres";
             this.sres.ReadOnly = true;
-            this.sres.Size = new System.Drawing.Size(116, 20);
+            this.sres.Size = new System.Drawing.Size(126, 20);
             this.sres.TabIndex = 16;
+            this.sres.Text = "Нет данных";
             // 
             // vres
             // 
-            this.vres.Location = new System.Drawing.Point(54, 86);
+            this.vres.Location = new System.Drawing.Point(132, 110);
             this.vres.Name = "vres";
             this.vres.ReadOnly = true;
-            this.vres.Size = new System.Drawing.Size(120, 20);
+            this.vres.Size = new System.Drawing.Size(126, 20);
             this.vres.TabIndex = 15;
+            this.vres.Text = "Нет данных";
             this.vres.TextChanged += new System.EventHandler(this.vres_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(493, 86);
+            this.label6.Location = new System.Drawing.Point(109, 161);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(28, 16);
             this.label6.TabIndex = 14;
@@ -231,7 +235,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(266, 87);
+            this.label7.Location = new System.Drawing.Point(104, 61);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(34, 16);
             this.label7.TabIndex = 13;
@@ -251,6 +255,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label13);
@@ -262,16 +267,17 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.vres);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Location = new System.Drawing.Point(12, 184);
+            this.panel2.Location = new System.Drawing.Point(3, 213);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(658, 122);
+            this.panel2.Size = new System.Drawing.Size(379, 261);
             this.panel2.TabIndex = 18;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.Location = new System.Drawing.Point(180, 87);
+            this.label15.Location = new System.Drawing.Point(264, 110);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(31, 16);
             this.label15.TabIndex = 14;
@@ -281,7 +287,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.Location = new System.Drawing.Point(416, 87);
+            this.label14.Location = new System.Drawing.Point(264, 61);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(18, 16);
             this.label14.TabIndex = 14;
@@ -291,7 +297,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(631, 87);
+            this.label13.Location = new System.Drawing.Point(264, 161);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(16, 16);
             this.label13.TabIndex = 14;
@@ -301,26 +307,38 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(18, 87);
+            this.label9.Location = new System.Drawing.Point(102, 111);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(30, 16);
             this.label9.TabIndex = 18;
             this.label9.Text = "V =";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label16.ForeColor = System.Drawing.Color.Red;
+            this.label16.Location = new System.Drawing.Point(87, 216);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(217, 39);
+            this.label16.TabIndex = 27;
+            this.label16.Text = "В этом разделе отсутствует информация\r\n   по причине ее избыточности в теме:\r\n   " +
+    "         \"Равномерное движение\"";
             // 
             // lineCommon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BalistaCalc.Properties.Resources.Background_physic;
-            this.ClientSize = new System.Drawing.Size(682, 318);
+            this.ClientSize = new System.Drawing.Size(384, 477);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "lineCommon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Прямолинейное Движение";
-            this.Load += new System.EventHandler(this.lineCommon_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -355,5 +373,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label16;
     }
 }

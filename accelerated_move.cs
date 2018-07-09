@@ -22,8 +22,29 @@ namespace BalistaCalc
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void CH_Theme(object sender, EventArgs e)
         {
+            int index = listBox1.SelectedIndex;
+
+            switch(index)
+            {
+                case 0:
+                    Classic_aceler t = new Classic_aceler();
+                    
+                    t.ShowDialog();
+                   
+                    break;
+
+                case 1:
+                    FreeFall f0 = new FreeFall();
+                    f0.ShowDialog();
+                    break;
+
+                case 2:
+                    ThrowMove f1 = new ThrowMove();
+                    f1.ShowDialog();
+                    break;
+            }
 
         }
 
@@ -31,34 +52,5 @@ namespace BalistaCalc
         {
 
         }
-
-        private void DC(object sender, EventArgs e)
-        {
-            int index = listBox1.SelectedIndex;
-
-            switch (index)
-            {
-                case 0:
-                   way w = new way();
-                    w.ShowDialog();
-                    break;
-                case 1:
-                    Coordinate c = new Coordinate();
-                    c.ShowDialog();
-                    break;
-                case 2:
-                    Speed s = new Speed();
-                    s.ShowDialog();
-                    break;
-
-            }
-        }
-
-        private void accelerated_move_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        
     }
 }

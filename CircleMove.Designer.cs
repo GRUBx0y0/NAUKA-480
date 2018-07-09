@@ -98,9 +98,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 2);
+            this.panel1.Location = new System.Drawing.Point(3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(482, 167);
+            this.panel1.Size = new System.Drawing.Size(491, 172);
             this.panel1.TabIndex = 0;
             // 
             // button1
@@ -108,7 +108,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Location = new System.Drawing.Point(200, 85);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 30);
+            this.button1.Size = new System.Drawing.Size(85, 39);
             this.button1.TabIndex = 19;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = false;
@@ -174,7 +174,6 @@
             this.atext.Name = "atext";
             this.atext.Size = new System.Drawing.Size(103, 20);
             this.atext.TabIndex = 12;
-            this.atext.TextChanged += new System.EventHandler(this.atext_TextChanged);
             // 
             // label7
             // 
@@ -313,9 +312,9 @@
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.label25);
             this.panel2.Controls.Add(this.label26);
-            this.panel2.Location = new System.Drawing.Point(12, 180);
+            this.panel2.Location = new System.Drawing.Point(3, 180);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(482, 143);
+            this.panel2.Size = new System.Drawing.Size(491, 143);
             this.panel2.TabIndex = 2;
             // 
             // label14
@@ -484,7 +483,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label26.Location = new System.Drawing.Point(197, 10);
+            this.label26.Location = new System.Drawing.Point(197, 11);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(97, 16);
             this.label26.TabIndex = 20;
@@ -495,7 +494,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BalistaCalc.Properties.Resources.Background_physic;
-            this.ClientSize = new System.Drawing.Size(809, 335);
+            this.ClientSize = new System.Drawing.Size(810, 327);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel1);
@@ -505,7 +504,6 @@
             this.Name = "CircleMove";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Движение по Окружности";
-            this.Load += new System.EventHandler(this.CircleMove_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

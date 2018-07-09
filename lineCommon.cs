@@ -40,12 +40,12 @@ namespace BalistaCalc
 
         }
 
-        private void lineCommon_Load(object sender, EventArgs e)
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void stext_TextChanged(object sender, EventArgs e)
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }
@@ -136,7 +136,7 @@ namespace BalistaCalc
 
             if(counter > 1)
             {
-                MessageBox.Show("Слишком много неизвестных переменных (Расчет невозможен)");
+
             }
 
 
@@ -145,39 +145,56 @@ namespace BalistaCalc
                 if(sb == false)
                 {
                     s = v * t;
+                    sb = true;
                 }
 
                 if (vb == false)
                 {
-                    if(t != 0)
-                    {
+               
                         v = s / t;
-                    }
 
-                    else
-                    {
-                        MessageBox.Show("Время не может быть равно нулю при расчете скорости");
-                    }
-                    
+                    vb = true;
                 }
 
                 if (tb == false)
                 {
-                    if(v != 0)
-                    {
+
                       t = s / v;
-                    }
 
-                    else
-                    {
-                        MessageBox.Show("Скоость не может быть равна нулю при расчете времени");
-                    }
-
+                    tb = true;
                 }
 
-                vres.Text = v.ToString();
-                sres.Text = s.ToString();
-                tres.Text = t.ToString();
+
+                if (vb)
+                {
+                    vres.Text = v.ToString();
+                }
+
+                else
+                {
+                    vres.Text = "Нет данных";
+                }
+
+                if (sb)
+                {
+                    sres.Text = s.ToString();
+                }
+
+                else
+                {
+                    sres.Text = "Нет данных";
+                }
+
+                if (tb)
+                {
+                    tres.Text = t.ToString();
+                }
+
+                else
+                {
+                    tres.Text = "Нет данных";
+                }
+
 
                 vtext.Text = "";
                 stext.Text = "";

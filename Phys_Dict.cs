@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace BalistaCalc
 {
-    public partial class Coordinate : Form
+    public partial class Phys_Dict : Form
     {
-        public Coordinate()
+        public Phys_Dict()
         {
             InitializeComponent();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
